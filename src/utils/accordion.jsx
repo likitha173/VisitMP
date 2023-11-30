@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Before You Go",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Check the current weather conditions and pack accordingly. Madhya Pradesh experiences diverse climates in different regions. Ensure you have all necessary identification, permits, and travel documents. Consult with your doctor about vaccinations and carry a basic medical kit.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Safety Tips",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Save important contact numbers, including local emergency services and the nearest embassy or consulate. Familiarize yourself with local laws and regulations.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Getting There",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Explore various transportation options like flights, trains, and buses to reach your destination",
   },
 ];
 export default data;
