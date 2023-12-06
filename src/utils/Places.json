@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Mahakaleshwar Jyotirlinga",
+    "type": "Hindu temple, Ujjain",
+    "detail": "A divine place dedicated to lord shiva.",
+    "image": "./ujjain-img.webp"
+  },
+  {
+    "name": "MP Tribal Museum",
+    "type": "Museum, Bhopal",
+    "detail": "The life of natives of Union Territory of Dadra & Nagar Haveli",
+    "image": "./museum.jpg"
+  },
+  {
+    "name": "Crescent Water Park",
+    "type": "Water park, Sehore",
+    "detail": "One of India's finest family water park",
+    "image": "./crescent.avif"
+  },
+  {
+    "name": "Fundore Entertainment Park",
+    "type": "Amusement park ride, Indore",
+    "detail": "Dive into the ocean of fun at one of the best amusement parks",
+    "image": "./park-ride.jpg"
+  },
+  {
+    "name": "City of Lakes",
+    "type": "Tourist attraction, Bhopal",
+    "detail": "The presence of many natural and artificial lakes",
+    "image": "./city-of-lakes.webp"
+  },
+  {
+    "name": "DB City Bhopal",
+    "type": "Shopping complex, Bhopal",
+    "detail": "The popular shopping destinations in Bhopal",
+    "image": "./db-mall.jpg"
+  },
+  {
+    "name": "Rajwada Palace",
+    "type": "Palace, Indore",
+    "detail": "A residence for the Holkar dynasty of Central India",
+    "image": "./rajwada.avif"
+  }
+]

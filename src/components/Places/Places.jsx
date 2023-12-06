@@ -1,24 +1,24 @@
 import React from 'react';
 import {Swiper, SwiperSlide, useSwiper} from 'swiper/react'
 import "swiper/css"
-import "./Bhopal.css"
-import data from '../../utils/slider.json'
+import "./Places.css"
+import data from '../../utils/Places.json'
 import { sliderSettings } from "../../utils/common";
 import { color } from 'framer-motion';
 
-const Bhopal = () => {
+const Places = () => {
     return (
-        <section className='b-wrapper'>
-            <div className='paddings innerWidth b-container'>
-                <div className="b-head flexColStart">
-                    <span className='orangeText'>Bhopal</span>
-                    <span className='secondaryText'>Popular Regions in Bhopal</span>
+        <section className='p-wrapper'>
+            <div className='paddings innerWidth p-container'>
+                <div className="p-head flexColStart">
+                    <span className='orangeText'>Explore Destinations</span>
+                    <span className='primaryText'>Uncover Unique Regions</span>
                 </div>
                 <Swiper {...sliderSettings}>
                     <SliderButtons/>
                     {data.map((card, i) => (
                             <SwiperSlide key={i}>
-                                <div className='flexColStart b-card'>
+                                <div className='flexColStart p-card'>
                                     <img src={card.image} alt="home" />
 
                                     <span className='primaryText'>{card.name}</span>
@@ -33,12 +33,12 @@ const Bhopal = () => {
     );
 };
 
-export default Bhopal;
+export default Places;
 
 const SliderButtons = () => {
     const swiper = useSwiper();
     return (
-        <div className="flexCenter b-buttons">
+        <div className="flexCenter p-buttons">
         <button onClick={() => swiper.slidePrev()}>&lt;</button>
         <button onClick={() => swiper.slideNext()}>&gt;</button>
         </div>
