@@ -9,16 +9,25 @@ import {
 } from 'react-accessible-accordion'
 import "react-accessible-accordion/dist/fancy-example.css"
 import { MdOutlineArrowDropDown } from 'react-icons/md'
-import './Tip.css'
+import './Value.css'
 import data from '../../utils/accordion'
 
 const Value = () => {
     return (
         <section className='v-wrapper'>
             <div className='paddings innerWidth flexCenter v-container'>
+               
+                {/* left side */}
+                <div className='v-left'>
+                    <div className='image-container'>
+                        <img src="./value.jpg" alt="" />
+                    </div>
+                </div>
+
+                {/* right side */}
                 <div className='flexColStart v-right'>
-                    <span className='orangeText'>Travel Tips</span>
-                    <span className='primaryText'>Tips Before You Go</span>
+                    <span className='orangeText'>Our Value</span>
+                    <span className='primaryText'>Value We Give to You</span>
                     <span className='secondaryText'>
                         We always ready to help by providing the best services for you.
                         <br />

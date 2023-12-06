@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className='flexColStart c-left'>
                     <span className='orangeText'>Our Contacts</span>
                     <span className='primaryText'>Easy to Contact us</span>
-                    <span className='secondaryText'>We always ready to help by providing the best services for you. We belevive a good blace to live can make your Journey better.</span>
+                    <span className='secondaryText'>We always ready to help by providing the best services for you. We belevive a good blace to live can make your life better.</span>
                     <div className='flexColStart contactModes'>
                         {/* first row */}
                         <div className='flexStart row'>
@@ -80,7 +80,7 @@ const Contact = () => {
                 {/* right side */}
                 <div className='c-right'>
                     <div className='image-container'>
-                        <img src="./contact.png" alt="" />
+                        <img src="./contact.avif" alt="" />
                     </div>
                 </div>
             </div>

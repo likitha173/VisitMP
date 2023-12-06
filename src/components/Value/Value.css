@@ -6,6 +6,10 @@
     flex: 1;
 }
 
+.v-right {
+    gap: 0.5rem;
+}
+
 .accordion {
     margin-top: 2rem;
     border: none;
